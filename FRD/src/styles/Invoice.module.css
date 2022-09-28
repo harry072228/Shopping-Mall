@@ -1,0 +1,87 @@
+.pageBox{
+    display: flex;
+    background-color: #F5F4FE;
+    height: 300px;
+	align-items: center;
+    margin-bottom: 100px;
+}
+
+.Title{
+    font-size: 40px;
+}
+
+.page{
+    color: black;
+}
+
+.nowPage{
+    color: #FF2E79;
+    padding: 6px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.invoiceDiv{
+    display: flex;
+    box-shadow: 0 0 20px 0 #F2F0F7, 0 10px 10px 0 #F2F0F7;
+    width: 800px;
+    flex-direction: column;
+   
+}
+
+.order{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.texts{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.line{
+    background-color:black;
+    height: 1px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.lineGrey{
+    background-color:gray;
+    height: 1px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.centerLine{
+    display: flex;
+    justify-content: center;
+}
+
+.invoiceColum{
+display: flex;
+
+
+}
+
+

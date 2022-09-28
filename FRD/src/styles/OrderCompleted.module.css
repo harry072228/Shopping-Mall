@@ -1,0 +1,60 @@
+
+
+.pageBox{
+    display: flex;
+    background-color: #F5F4FE;
+    height: 400px;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+
+.Title{
+    font-size: 40px;
+}
+
+.page{
+    color: black;
+}
+
+.nowPage{
+    color: #FF2E79;
+    padding: 6px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+
+
+}
+
+.boxBorder{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.completedWord{
+    text-align: center;
+    font-size: 20px;
+}
+
+.shoppingPageButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF2E79;
+width: 400px;
+height: 60px;
+text-align: center;
+border: 0px;
+color: white;
+cursor: pointer;
+margin-top: 20px;
+}

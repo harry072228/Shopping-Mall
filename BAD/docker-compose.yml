@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  db:
+    image: "postgres:14"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: final_project
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+
+  backend:
+    environment:
+      DB_USER: postgres
+      DB_PASS: mysecretpassword
+      DB_NAME: final_project
+      DB_HOST: db
+      NODE_ENV: production
+      PORT: 8080
+    depends_on:
+      - db
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: "c21kbbad:latest"
+    ports:
+      - "8080:8080"

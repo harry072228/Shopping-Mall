@@ -1,0 +1,49 @@
+.errorBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+}
+.photo{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button{
+    background-color: #FF2E79;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.errorBackground{
+    display: flex;
+    background-color: #F5F4FE;
+    height: 300px;
+  align-items: center;
+    justify-content: space-around;
+}
+
+.errorTitle{
+    font-size: 40px;
+}
+
+.page{
+color: black;
+}
+
+.nowPage{
+color: #FF2E79;
+padding: 6px;
+}

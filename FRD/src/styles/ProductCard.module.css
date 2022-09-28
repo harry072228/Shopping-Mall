@@ -1,0 +1,32 @@
+.cardBigBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin: 20px;
+    
+    
+}
+
+
+
+.cardBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.productName{
+    margin: 10px;
+}
+
+.colorBox{
+    display: flex;
+    justify-content: space-around;
+}
+

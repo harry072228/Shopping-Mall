@@ -1,0 +1,16 @@
+.filter {
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: #151875;
+}
+
+.checkbox {
+	font-family: 'Lato';
+	font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+    color: #151875;
+}

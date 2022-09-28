@@ -1,0 +1,26 @@
+.cardBigBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    border: solid 1px;
+   padding: 20px;
+    margin: 20px;
+}
+
+.cardBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s{
+
+/* height: 300px;
+width: 500px; */
+
+}
+

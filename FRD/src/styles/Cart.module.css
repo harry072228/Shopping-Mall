@@ -1,0 +1,102 @@
+.pageBox{
+    display: flex;
+    background-color: #F5F4FE;
+    height: 300px;
+	align-items: center;
+    margin-bottom: 100px;
+}
+
+.Title{
+    font-size: 40px;
+}
+
+.page{
+    color: black;
+}
+
+.nowPage{
+    color: #FF2E79;
+    padding: 6px;
+}
+
+.empty {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	margin-top: 300px;
+	margin-bottom: 300px;
+}
+
+/* .title{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    clear: both;
+ 
+} */
+
+.cartBox {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 1000px;
+	height: 150px;
+	margin: 30px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+
+}
+
+.qty {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	margin: 20px;
+	cursor: pointer;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+}
+
+.totalBox {
+	width: 300px;
+	height: 200px;
+	margin: 30px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.totalPriceDiv{
+	display: flex;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.addButton{
+	margin: 40px;
+	background-color: #FF2E79;
+	color: white;
+	border: none;
+	width: 200px;
+	height: 40px;
+	cursor: pointer;
+}

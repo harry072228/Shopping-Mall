@@ -1,0 +1,125 @@
+
+.pageBox{
+    display: flex;
+    background-color: #F5F4FE;
+    height: 300px;
+ align-items: center;
+}
+
+.Title{
+    font-size: 40px;
+}
+
+.page{
+    color: black;
+}
+
+.nowPage{
+    color: #FF2E79;
+    padding: 6px;
+}
+
+
+.mainTopic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.Topic{
+    width: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #131B67;
+}
+
+.topicContent{
+    width: 600px;
+    margin-top: 20px;
+    color: #868CB4;
+}
+
+.contactButton{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FF2E79;
+    border: none;
+    color: white;
+    margin-top:40px;
+}
+
+.featuresTopic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+}
+
+.featuresTitle{
+    font-size: 40px;
+}
+
+.cardBox{
+    display: flex;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover{
+    border-bottom: solid  #FF8521 3px ;
+}
+
+.cardTopic{
+    font-size: 20px;
+    color:#131B67 ;
+    font-weight: bold;
+}
+
+.cardContact{
+    display: flex;
+    text-align: center;
+    width: 200px;
+    color: #B2ADC6;
+    font-weight: bold;
+}
+
+.clientTopic{
+    background-color: #FAFBFF;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.clientTitle{
+    font-size: 40px;
+
+}
+
+

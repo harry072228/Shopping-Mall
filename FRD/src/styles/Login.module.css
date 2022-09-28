@@ -1,0 +1,93 @@
+.pageBox{
+    display: flex;
+    background-color: #F5F4FE;
+    height: 300px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Title{
+    font-size: 40px;
+}
+
+.page{
+    color: black;
+}
+
+.nowPage{
+    color: #FF2E79;
+    padding: 6px;
+}
+
+
+
+.loginBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+   
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+}
+
+.loginWork{
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.loginCommet{
+    text-align: center;
+    padding: 10px;
+    color: gray;
+}
+
+.textBox{
+width: 400px;
+height: 40px;
+padding:10px;
+margin: 10px;
+display: flex;
+}
+
+.button{
+background-color: #FF2E79;
+width: 400px;
+height: 40px;
+text-align: center;
+border: 0px;
+color: white;
+cursor: pointer;
+margin: 20px;
+
+}
+
+.loginRegister{
+    text-align: center;
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.regiseterCommet{
+    text-align: center;
+    padding: 10px;
+    color: gray;
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+}
